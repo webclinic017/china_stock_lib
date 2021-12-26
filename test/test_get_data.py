@@ -12,6 +12,6 @@ def test_get_data():
     os.remove("survivorship_free.zip")
 
 def test_read_wind_excel():
-    dir = os.path.join('.','../quant/_notebooks')
+    dir = os.path.join('..', '../quant/_notebooks')
     df = read_wind_excel(f'{dir}/csi300.xlsx', '2015-6-18', '2018-6-18')
     pass

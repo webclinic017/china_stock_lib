@@ -1,6 +1,6 @@
 import pandas as pd
 
-def read_wind_excel(ticker, start, end):
+def read_wind_excel(ticker, start=None, end=None):
     custom_col_converter = lambda x : float(x.replace('--','0'))
     df0 = pd.read_excel(ticker,
                         engine='openpyxl',

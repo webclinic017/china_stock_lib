@@ -46,7 +46,7 @@ def runstrat():
     # Simulate the header row isn't there if noheaders requested
     skiprows = 1 if args.noheaders else 0
     header = None if args.noheaders else 0
-
+    print(f'{skiprows} and {header}')
     # dataframe = pandas.read_csv(
     #     datapath,
     #     skiprows=skiprows,

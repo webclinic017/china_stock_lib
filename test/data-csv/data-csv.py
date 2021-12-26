@@ -146,24 +146,28 @@ def runstrat(args=None):
 
     cerebro = bt.Cerebro()
 
-    # Data feed kwargs
-    kwargs = dict()
+    '''
+        # Data feed kwargs
+        kwargs = dict()
+        
+        # Parse from/to-date
+        dtfmt, tmfmt = '%Y-%m-%d', 'T%H:%M:%S'
+        
+        for a, d in ((getattr(args, x), x) for x in ['fromdate', 'todate']):
+            kwargs[d] = datetime.datetime.strptime(a, dtfmt + tmfmt * ('T' in a))
+            
+        data = wind.CSVDataFeed(dataname=datapath, plot=False, **kwargs)    
+    '''
 
-    # Parse from/to-date
-    dtfmt, tmfmt = '%Y-%m-%d', 'T%H:%M:%S'
-    for a, d in ((getattr(args, x), x) for x in ['fromdate', 'todate']):
-        kwargs[d] = datetime.datetime.strptime(a, dtfmt + tmfmt * ('T' in a))
-
-
+    # Get the dates from the args
+    fromdate = datetime.datetime.strptime(args.fromdate, '%Y-%m-%d')
+    todate = datetime.datetime.strptime(args.todate, '%Y-%m-%d')
     datapath = (f'../../../quant/_notebooks/csi300/data/{args.data}.csv')
-    data = wind.CSVDataFeed(dataname=datapath, plot=False, **kwargs)
 
-    # if not args.offline:
-    #     YahooData = bt.feeds.YahooFinanceData
-    # else:
-    #     YahooData = bt.feeds.YahooFinanceCSVData
-    # # Data feed - no plot - observer will do the job
-    # data = YahooData(dataname=args.data, plot=False, **kwargs)
+    data = wind.CSVDataFeed(dataname=datapath,
+                            fromdate=fromdate,
+                            todate=todate,
+                            plot=False,)
 
     cerebro.adddata(data)
 

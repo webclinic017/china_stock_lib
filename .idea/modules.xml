@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/china_stock_name/.idea/china_stock_data1.iml" filepath="$USER_HOME$/Desktop/china_stock_name/.idea/china_stock_data1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/china_stock_lib.iml" filepath="$PROJECT_DIR$/.idea/china_stock_lib.iml" />
     </modules>
   </component>

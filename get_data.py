@@ -3,7 +3,7 @@ import zipfile
 import urllib.request
 from urllib.error import HTTPError
 
-base_url = "https://github.com/jinyiabc/china_stock_data/raw/main/"
+base_url = "https://github.com/jinyiabc/china_stock_lib/raw/main/"
 
 
 def get_data(rel_url):

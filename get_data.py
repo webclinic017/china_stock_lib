@@ -31,3 +31,6 @@ def get_module_1(username):
 
 def get_module_2(username):
     get_data("module-{0:02n}/{1:s}.zip".format(2, username))
+
+def get_module_3(username):
+    get_data("module-{0:02n}/{1:s}".format(3, username))

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+get_data.py
+setup.py
+wind.py
+stock_data.egg-info/PKG-INFO
+stock_data.egg-info/SOURCES.txt
+stock_data.egg-info/dependency_links.txt
+stock_data.egg-info/requires.txt
+stock_data.egg-info/top_level.txt
+test/test_get_data.py

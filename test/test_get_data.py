@@ -26,3 +26,9 @@ def test_read_wind_csv():
                                  header=0,)
     print(df)
     pass
+
+def test_get_data1():
+    get_data.get_module_3('300072.csv')
+    # assert os.path.isdir("survivorship_free")
+    # shutil.rmtree("survivorship_free")
+    # os.remove("survivorship_free.zip")

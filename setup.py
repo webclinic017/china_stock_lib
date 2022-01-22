@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = 'stock_data',
-    version = '0.0.9',
+    version = '0.0.10',
     author = 'Alex JIN YI',
     author_email = 'jinyiabc@gmail.com',
     packages=['helper'],

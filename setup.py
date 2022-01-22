@@ -7,7 +7,7 @@ setup(
     author_email = 'jinyiabc@gmail.com',
     packages=['helper'],
     url = 'https://github.com/jinyiabc/china_stock_lib.git',
-    py_modules = ['get_data'],
+    py_modules = ['get_data', 'upload_github'],
     description = 'install data in jupyter notebook',
     install_requires = ['backtrader'],
 )

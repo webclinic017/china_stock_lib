@@ -3,7 +3,7 @@ import os
 # from future.moves import pickle
 from github import Github
 
-from helper import cfg
+from helper.configSQL import cfg
 
 def upload_github(file_path):
 

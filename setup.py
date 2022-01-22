@@ -12,3 +12,7 @@ setup(
 )
 
 # pip  install setup.py
+"""
+Then, you need a builder, such as PyPA build which you can obtain via pip install build. After downloading it, invoke the builder:
+python -m build
+"""

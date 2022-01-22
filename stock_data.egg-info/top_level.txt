@@ -1,2 +1,4 @@
+data_prep
 get_data
+help
 wind

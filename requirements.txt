@@ -1,10 +1,42 @@
+backtrader==1.9.76.123
+Bottleneck @ file:///D:/bld/bottleneck_1636024369482/work
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///C:/ci/cffi_1600699246375/work
+chardet==3.0.4
+config==0.5.1
+cryptography @ file:///C:/ci/cryptography_1639472366776/work
+Deprecated==1.2.10
+future==0.18.2
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 ipywidgets==7.6.5
 jupyter==1.0.0
 jupyter-console==6.4.0
 jupyterlab-widgets==1.0.2
+mkl-service==2.4.0
 mpmath==1.2.1
+mysql-connector-python==8.0.18
 nose==1.3.7
+numexpr @ file:///C:/ci/numexpr_1640704408721/work
+numpy @ file:///D:/bld/numpy_1642632649140/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
+pandas @ file:///C:/ci/pandas_1641443171711/work
+protobuf==3.12.4
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+PyGithub @ file:///tmp/build/80754af9/pygithub_1597767169487/work
+PyJWT==1.7.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1642753572664/work
+PySocks==1.7.1
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1633452062248/work
 qtconsole==5.2.2
 QtPy==2.0.0
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+SQLAlchemy @ file:///C:/ci/sqlalchemy_1598374833867/work
 sympy==1.9
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
 widgetsnbextension==3.5.2
+win-inet-pton==1.1.0
+wrapt==1.12.1

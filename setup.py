@@ -6,9 +6,9 @@ setup(
     author = 'Alex JIN YI',
     author_email = 'jinyiabc@gmail.com',
     url = 'https://github.com/jinyiabc/china_stock_lib.git',
-    py_modules = ['get_data', 'wind'],
+    py_modules = ['get_data', 'wind', 'data_prep', 'help'],
     description = 'install data in jupyter notebook',
     install_requires = ['backtrader'],
 )
 
-# pip setup.py install
+# pip  install setup.py

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = 'stock_data',
-    version = '0.0.5',
+    version = '0.0.6',
     author = 'Alex JIN YI',
     author_email = 'jinyiabc@gmail.com',
     url = 'https://github.com/jinyiabc/china_stock_lib.git',

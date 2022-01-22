@@ -1,7 +1,7 @@
 import os
 import shutil
 
-import get_data
+from helper import get_data
 from wind import read_wind_excel, read_wind_csv
 
 

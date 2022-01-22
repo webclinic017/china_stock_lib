@@ -5,9 +5,9 @@ setup(
     version = '0.0.9',
     author = 'Alex JIN YI',
     author_email = 'jinyiabc@gmail.com',
-    packages=['data_prep','helper'],
+    packages=['helper'],
     url = 'https://github.com/jinyiabc/china_stock_lib.git',
-    py_modules = ['get_data', 'wind', 'mysql_dbconnection', 'WSDLoader'],
+    py_modules = ['get_data'],
     description = 'install data in jupyter notebook',
     install_requires = ['backtrader'],
 )

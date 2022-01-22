@@ -3,6 +3,15 @@ README.md
 get_data.py
 setup.py
 wind.py
+data_prep/WSDLoader.py
+data_prep/WSETLoader.py
+data_prep/WSSLoader.py
+data_prep/__init__.py
+helper/__init__.py
+helper/configSQL.py
+helper/insert.py
+helper/mysql_dbconnection.py
+helper/upload_github.py
 stock_data.egg-info/PKG-INFO
 stock_data.egg-info/SOURCES.txt
 stock_data.egg-info/dependency_links.txt

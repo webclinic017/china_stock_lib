@@ -2,17 +2,35 @@ from setuptools import setup
 
 setup(
     name = 'stock_data',
-    version = '0.0.6',
+    version = '0.0.9',
     author = 'Alex JIN YI',
     author_email = 'jinyiabc@gmail.com',
+    packages=['data_prep','helper'],
     url = 'https://github.com/jinyiabc/china_stock_lib.git',
-    py_modules = ['get_data', 'wind', 'data_prep', 'help'],
+    py_modules = ['get_data', 'wind', 'mysql_dbconnection', 'WSDLoader'],
     description = 'install data in jupyter notebook',
     install_requires = ['backtrader'],
 )
 
 # pip  install setup.py
 """
+from setuptools import setup
+
+setup(
+    name='mypackage',
+    version='0.0.1',
+    packages=['mypackage'],
+    install_requires=[
+        'requests',
+        'importlib; python_version == "2.6"',
+    ],
+)
+
+~/mypackage/
+    pyproject.toml
+    setup.cfg # or setup.py
+    mypackage/__init__.py
+    
 Then, you need a builder, such as PyPA build which you can obtain via pip install build. After downloading it, invoke the builder:
 python -m build
 """
